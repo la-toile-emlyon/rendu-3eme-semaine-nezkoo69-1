@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    color: white;
+}
+
+/* START HEADER */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+    margin: auto;
+    padding:45px;
+    background-color: #816B5A;
+}
+
+body{
+    background-color: #816B5A;
+}
+.logo{
+    width: 318px;
+    padding-bottom: 20px;
+}
+
+.lien-nav{
+    text-decoration: none;
+    font-size: 27px;
+    padding: 9px;
+}
+
+
+/* end header */
+
+
+
+/* section hero */
+
+ .background-hero{
+    background-image: url(../architecte-interieur/services/choix-couleur-materiau.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 715px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color: white;
+    text-align: center;
+}
+    
+
+.titre-hero{
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110px;
+  padding-top: 302px
+}
+
+.texte-hero{
+    font-size: 50px;
+     font-family: bold  "Share", sans-serif;
+}
+
+
+.bouton-image{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 600px;
+}
+
+.bouton-rdv{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 23px;
+    text-align: center;
+    background-color: #3E2D15;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.bouton-rdv:hover {
+  background-color: #2e210f;
+}
+
+.bouton-real{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 23px;
+    text-align: center;
+    background-color: #3E2D15;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+    
+.bouton-real:hover {
+    background-color: #2e210f;
+}
+
+
+
+/* section promesses */
+
+.promesse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px;
+    padding-bottom: 91px;
+}
+
+.titre-promesse{
+    font-size: 100px;
+    font-family: "Cardo", serif;
+    padding-top: 35px;
+
+}
+
+.sous-titre-promesse{
+    font-family: "Share", sans-serif;
+    font-size: 34px;
+}
+
+.Benefices{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-promesse{
+    width: 569px;
+    height: 729px;
+    padding-left: 427px;
+}
+
+.liste-promesse{
+  padding-top: 8px;  
+  font-size: 32px;
+  font-family: "Share", sans-serif;
+  display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-left: 108px;
+}
+.bouton-promesse{
+    border: 0;
+    line-height: 2.5;
+    padding: 9px 30px;
+    font-size: 23px;
+    text-align: center;
+    background-color: #3E2D15;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: auto;
+    width: 302px;
+    margin-top: 47px;
+    margin-bottom: 98px;
+}
+    
+
+.bouton-promesse:hover {
+  background-color: #2e210f;
+}
+
+
+
+/* SECTION SERVICE */
+
+
+.container{
+    width: 1559px;
+    margin: auto;
+    gap: 263px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.card-service{
+    width: 326px;
+    box-shadow: 0 20px 30px #00000036;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(75 49 25 / 62%);
+}
+
+    .image-service{
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .titre-card{
+        font-family: "Cardo", serif;
+        font-size: 87px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 115px;
+    }
+
+    .titre-service{
+        font-size: 37px;
+        font-family: "Cardo", serif;
+    }
+
+    .texte-service{
+        font-size: 37px;
+    }
+    .bouton-service{
+        border: 0;
+        line-height: 2.5;
+        padding: 9px 30px;
+        font-size: 44px;
+        text-align: center;
+        background-color: #3E2D15;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .bouton-service:hover {
+  background-color: #2e210f;
+}
+
+
+/* Section real */
+
+.mes-projets{
+    font-size: 80px;
+    font-family: "Cardo", serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 210px;
+    padding-bottom: 96px;
+}
+
+.texte-hausmanien{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 1080px;
+    padding-right: 62px;
+}
+
+.Realisation-projet1{
+    display: flex;
+    flex-direction: row;
+    width: 2570px;
+    box-shadow: 0 20px 30px #00000036;
+    border-radius: 10px;
+    background-color: rgb(75 49 25 / 62%);
+}
+
+.sous-titre-haus{
+    font-size: 80px;
+    font-family: "Cardo", serif;
+}
+
+.p-haus{
+    font-size: 30px;
+    font-family: "Share", sans-serif;
+
+}
+
+.Haussmannien{
+    width: 800px;
+    padding-right: 60px;
+}
+
+
+.texte-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 1080px;
+    padding-right: 62px;
+}
+
+.Realisation-projet2{
+    display: flex;
+    flex-direction: row;
+    width: 2570px;
+    box-shadow: 0 20px 30px #00000036;
+    border-radius: 10px;
+    background-color: rgb(75 49 25 / 62%);
+}
+
+.sous-titre-cont{
+    font-size: 80px;
+    font-family: "Cardo", serif;
+}
+
+.p-cont{
+    font-size: 30px;
+    font-family: "Share", sans-serif;
+
+}
+
+.cont{
+    width: 663px;
+    height: 722px;
+}
+
+
+
+.texte-studio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 1080px;
+    padding-right: 62px;
+}
+
+.Realisation-projet3{
+    display: flex;
+    flex-direction: row;
+    width: 2570px;
+    box-shadow: 0 20px 30px #00000036;
+    border-radius: 10px;
+    background-color: rgb(75 49 25 / 62%);
+}
+
+.sous-titre-studio{
+    font-size: 80px;
+    font-family: "Cardo", serif;
+}
+
+.p-studio{
+    font-size: 30px;
+    font-family: "Share", sans-serif;
+
+}
+
+.studio{
+    width: 800px;
+    padding-right: 60px;
+}
+
+
+
+.texte-boutique{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 1080px;
+    padding-right: 62px;
+}
+
+.Realisation-projet4{
+    display: flex;
+    flex-direction: row;
+    width: 2570px;
+    box-shadow: 0 20px 30px #00000036;
+    border-radius: 10px;
+    background-color: rgb(75 49 25 / 62%);
+}
+
+.sous-titre-boutique{
+    font-size: 80px;
+    font-family: "Cardo", serif;
+}
+
+.p-boutique{
+    font-size: 30px;
+    font-family: "Share", sans-serif;
+
+}
+
+.boutique{
+    width: 663px;
+    height: 593px;
+}
